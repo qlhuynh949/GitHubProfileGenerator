@@ -1,19 +1,29 @@
-const generateMarkdown = (data) => {
+const generateMarkdown = (data, screen) => {
   return `
-# Name: ${data.name}
-## Username: ${data.login}
+* Table of Contents
+1. Project title
+1. Description
+1.  Installation
+1.  Usage
+1.  License
+1.  Contributing
+1.  Tests
+1.  Questions
+1.  User GitHub profile picture
+1.  User GitHub email
+
+## Project title: ${screen.title}
+## Description: ${screen.description}
+## Installation: ${screen.installation}
+## Usage: ${screen.usage}
+## License: ${screen.license}
+## Contributing: ${screen.contribute}
+## Tests: ${screen.test}
+## Questions: ${screen.questions}
+
+## Profile picture: ![GitHub avatar](${data.avatar_url})
 ## Email: ${data.email}
-## Location: ${data.location}
-## Company: ${data.company}
-## Bio: ${data.bio}
-## Number of public repos: ${data.public_repos}
-## Number of followers: ${data.followers}
-## GitHub Url: ${data.url}
-## HTML Url: ${data.html_url}
-## Blog: ${data.blog}
-![GitHub avatar](${data.avatar_url})
-## Created Date: ${data.created_at}
-## Last Updated: ${data.updated_at}
+
 `
 }
 
