@@ -1,25 +1,34 @@
 
 * Table of Contents
-1. Project title
-1. Description
-1.  Installation
-1.  Usage
-1.  License
-1.  Contributing
-1.  Tests
-1.  Questions
-1.  User GitHub profile picture
-1.  User GitHub email
+1. [Project title](#Project)
+1. [Description](#Description)
+1.  [Installation](#Installation)
+1.  [Usage](#Usage)
+1.  [License](#License)
+1.  [Contributing](#Contributing)
+1.  [Tests](#Tests)
+1.  [Questions](#Questions)
+1.  [User GitHub profile picture](#Profile)
+1.  [User GitHub email](#Email)
 
-## Project title: ucieats
-## Description: this is a project that list searches for places to eat
-## Installation: npm i
-## Usage: no
-## License: GPL 3.0
-## Contributing: no
-## Tests: npm test
-## Questions: no
-
-## Profile picture: ![GitHub avatar](https://avatars2.githubusercontent.com/u/58238137?v=4)
-## Email: null
+## Project
+      ucieats
+## Description
+      a weekend app
+## Installation
+      npm i
+## Usage
+      no
+## License
+     GPL 3.0
+## Contributing
+     no
+## Tests
+     npm test
+## Questions
+     no
+## Profile
+     ![GitHub avatar](https://avatars2.githubusercontent.com/u/58238137?v=4)
+## Email
+     null
 
